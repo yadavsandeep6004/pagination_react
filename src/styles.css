@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  padding: 0.4rem;
+  background-color: blueviolet;
+  margin-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid gray;
+  margin: 0.7rem;
+  padding: 0.4rem;
+  color: black;
+}
+
+.active{
+  background: rgb(50, 50, 216);
+  color: white;
+}
+.prev:hover , .next:hover{
+  background-color: rgb(50,50,216) ;
+  color: white;
+}
